@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="node_modules/traceur/bin/traceur.js"></script>
+		<script src="node_modules/steal-es6-module-loader/dist/es6-module-loader.js"></script>
+	</head>
+	<body>
+		<script>
+			System.transpiler = 'traceur';
+			System.import('./scripts/main');
+		</script>
+	</body>
+</html>
